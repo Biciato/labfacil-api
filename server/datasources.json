@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "labfacilApi": {
+    "host": "localhost",
+    "port": 27017,
+    "url": "",
+    "database": "labfacil-api",
+    "password": "",
+    "name": "labfacilApi",
+    "user": "",
+    "connector": "mongodb"
+  }
+}

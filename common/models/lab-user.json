@@ -1,0 +1,44 @@
+{
+  "name": "LabUser",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "string",
+      "required": true
+    },
+    "cpf": {
+      "type": "string",
+      "required": true
+    },
+    "rg": {
+      "type": "string",
+      "required": true
+    },
+    "data_nasc": {
+      "type": "string",
+      "required": true
+    },
+    "tel": {
+      "type": "string"
+    },
+    "cel": {
+      "type": "string"
+    },
+    "sexo": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
